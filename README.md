@@ -16,10 +16,11 @@ Each pass produces a structured list of flagged items with locations, quoted tex
 
 ## Installation
 
-Copy `SKILL.md` into your Claude Code skills directory:
+From a local checkout of this repository, copy `SKILL.md` into your Claude Code skills directory:
 
-```
-~/.claude/skills/paper-audit/SKILL.md
+```sh
+mkdir -p ~/.claude/skills/paper-audit
+cp SKILL.md ~/.claude/skills/paper-audit/SKILL.md
 ```
 
 Then invoke with:
